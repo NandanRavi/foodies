@@ -1,0 +1,55 @@
+/* ################## for desktop mode ################### */
+
+.navbar input[type='checkbox'],
+.navbar .hamburger-lines{
+    display: none;
+}
+
+.navbar{
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    opacity: 0.85;
+    z-index: 100;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+
+.menu-items{
+    display: flex;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.menu-items li{
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    /* transition: color 0.4s ease-in-out; */
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.navbar a:hover{
+    color: #117964;
+}
+
+
+

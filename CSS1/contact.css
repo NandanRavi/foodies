@@ -1,0 +1,54 @@
+#contact{
+    padding: 5rem 0;
+    color: rgb(226, 226, 226);
+}
+
+.contact-container{
+    display: flex;
+    background: #fff;
+}
+
+.image-contact{
+    width: 50%;
+}
+
+.image-contact img{
+    display: block;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.form-container{
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+}
+
+.form-container h2{
+    font-size: 2rem;
+    color: rgb(32, 32, 32);
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.form-container input,
+.form-container textarea{
+    display: block;
+    width: 100%;
+    /* border: none; */
+    /* border-bottom: 2px solid #ddd; */
+    padding: 1rem 0;
+    box-shadow: none;
+    color: #000;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.form-container a{
+    font-size: 1.2rem;
+}
+
+
+

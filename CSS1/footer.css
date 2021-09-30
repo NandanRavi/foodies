@@ -1,0 +1,22 @@
+#footer{
+    background: rgb(65, 65, 65);
+}
+
+#footer h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.social-media{
+    text-align: center;
+}
+
+#footer a{
+    text-decoration: none;
+    margin: 1rem;
+    color: #fff;
+}
+

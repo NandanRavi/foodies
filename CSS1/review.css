@@ -1,0 +1,42 @@
+#review{
+    padding: 5rem 0rem;
+    background: rgb(243, 243, 243);
+}
+
+.review-title{
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #555;
+    text-align: center;
+}
+
+.review-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.review-box{
+    text-align: center;
+    padding: 1rem;
+}
+
+.review-box .checked{
+    color: #ff9529;
+}
+
+.review-box .review-text{
+    margin: 1rem 0;
+    color: #444;
+}
+
+.customer-image img{
+    display: block;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin: auto;
+}
